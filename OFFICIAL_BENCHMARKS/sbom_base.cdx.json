@@ -1,0 +1,88 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:ca00895b-8ad3-5186-870e-b0b80babe04f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T14:57:12Z",
+    "component": {
+      "type": "application",
+      "name": "WHISPER",
+      "version": "86098128c0b4",
+      "bom-ref": "pkg:generic/anticloud/WHISPER@86098128c0b4",
+      "purl": "pkg:generic/anticloud/WHISPER@86098128c0b4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "86098128c0b4f24f0e2aa2994de830614b474227"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/openai/whisper"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "more-itertools",
+      "version": "unspecified",
+      "purl": "pkg:pypi/more-itertools",
+      "bom-ref": "pypi/more-itertools@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numba",
+      "version": "unspecified",
+      "purl": "pkg:pypi/numba",
+      "bom-ref": "pypi/numba@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/numpy",
+      "bom-ref": "pypi/numpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tiktoken",
+      "version": "unspecified",
+      "purl": "pkg:pypi/tiktoken",
+      "bom-ref": "pypi/tiktoken@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "torch",
+      "version": "unspecified",
+      "purl": "pkg:pypi/torch",
+      "bom-ref": "pypi/torch@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tqdm",
+      "version": "unspecified",
+      "purl": "pkg:pypi/tqdm",
+      "bom-ref": "pypi/tqdm@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "triton",
+      "version": ">=2",
+      "purl": "pkg:pypi/triton@2",
+      "bom-ref": "pypi/triton@>=2"
+    }
+  ]
+}
